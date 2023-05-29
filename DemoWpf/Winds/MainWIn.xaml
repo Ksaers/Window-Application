@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfApp1.Winds.MainWIn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.Winds"
+        mc:Ignorable="d"
+        Title="MainWIn" Height="450" Width="800">
+    <StackPanel Orientation="Vertical" VerticalAlignment="Top">
+        <Button Content="Canvas" Height="38" FontSize="24"
+                FontFamily="Time New Roman"
+                FontStyle="Italic"
+                Margin="5" Click="Win1Click"/>
+        <Button Content="StackPanel" Height="38" FontSize="24"
+                FontFamily="Time New Roman"
+                FontStyle="Italic"
+                Margin="5" Click="Win2Click"/>
+        <Button Content="DockPanel" Height="38" FontSize="24"
+                FontFamily="Time New Roman"
+                FontStyle="Italic"
+                Margin="5" Click="Win3Click"/>
+        <Button Content="Wrap Panel" Height="38" FontSize="24"
+                FontFamily="Time New Roman"
+                FontStyle="Italic"
+                Margin="5" Click="Win4Click"/>
+        <Button Content="Grid" Height="38" FontSize="24"
+                FontFamily="Time New Roman"
+                FontStyle="Italic"
+                Margin="5" Click="Win5Click"/>
+
+    </StackPanel>
+</Window>

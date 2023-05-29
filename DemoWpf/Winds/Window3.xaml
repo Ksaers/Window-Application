@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp1.Winds.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.Winds"
+        mc:Ignorable="d"
+        Title="Window3" Height="450" Width="800">
+    <DockPanel>
+        <Button DockPanel.Dock="Top" Background="Orange">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="hhhhhhh"/>
+                <Button Content="7777777" Height="20"/>
+            </StackPanel>
+        </Button>
+        <Button DockPanel.Dock="Left" Background="Red">2 (Left)</Button>
+        <Button DockPanel.Dock="Right" Background="Yellow">3 (Right)</Button>
+        <Button DockPanel.Dock="Bottom" Background="Green">4(Bottom)</Button>
+        <Button Background="Blue">5</Button>
+    </DockPanel>
+</Window>
